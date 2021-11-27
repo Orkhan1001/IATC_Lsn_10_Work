@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 670px;
+    min-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN */
+.main1001{
+    background-color: crimson;
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    align-items: stretch;
+    position: relative;
+}
+.parts{
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+.parts .header {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.parts .insides{
+    height: 90px;
+    width: 90px;
+    box-shadow: 0 5px 5px darkslategray;
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* PART 1 */
+.part_1{
+    background-color: rgb(223, 225, 238);
+}
+.part_1 div:nth-child(2){
+    background-color: rgb(254, 250, 179);
+    top: 80px;
+    left: 40px;
+}
+.part_1 div:nth-child(3){
+    background-color: rgb(246, 247, 247);
+    right: 50px;
+    top: 270px;
+}
+.part_1 div:nth-child(4){
+    background-color: rgb(254, 249, 189);
+    left: 50px;
+    bottom: 80px;
+    font-size: 20px;
+}
+
+/* PART 2 */
+.part_2{
+    background-color: rgb(171, 178, 230);
+}
+.part_2 div:nth-child(2){
+    background-color: rgb(246, 247, 250);
+    right: 20px;
+    top: 150px;
+    z-index: 1;
+}
+.part_2 div:nth-child(3){
+    background-color: rgb(254, 248, 186);
+    height: 150px;
+    width: 150px;
+    top: 200px;
+    left: 40px;
+    font-size: 20px;
+}
+
+/* PART 3 */
+.part_3{
+    background-color: rgb(117, 133, 221);
+}
+.part_3 .header h4{
+    color: white;
+}
+.part_3 div:nth-child(2){
+    background-color: rgb(244, 245, 249);
+    height: 150px;
+    width: 150px;
+    font-size: 20px;
+    bottom: 150px;
+    left: 50px;
+}
+
+/* PART 4 */
+.part_4{
+    background-color: rgb(63, 83, 216);
+}
+.part_4 .header h4{
+    color: white;
+}
+.part_4 div:nth-child(2){
+    background-color: rgb(244, 245, 249);
+    top: 100px;
+    left: 80px;
+}
+.part_4 div:nth-child(3){
+    background-color: rgb(253, 248, 189);
+    top: 300px;
+    left: 100px;
+    z-index: 1;
+}
+.part_4 div:nth-child(4){
+    background-color: rgb(243, 244, 248);
+    bottom: 150px;
+    left: 50px;
+}
